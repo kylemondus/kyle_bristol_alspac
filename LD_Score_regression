@@ -1,0 +1,6 @@
+#Bash script for LD Score regression in Bluecrystal 4
+
+module load apps/ldsc/1.0.1
+
+#Load environment with ldsc python dependencies
+conda activate /mnt/storage/software/languages/anaconda/Anaconda3.8.5/envs/ldsc

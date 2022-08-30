@@ -6,4 +6,4 @@ In particular, basic Bluecrystal 4 processes which took me forever to learn beca
 
 [GWAS using SNPTEST and bash wrapper](GWAS_Bluecrystal4_SNPTEST.sh)  
 [Heritability analysis using GCTA](Heritability_Bluecrystal4_gcta)  
-[LD Score regression](LDscore_regression_Bluecrystal4_ldsc) - unfinished   
+[Genetic correlation using LD Score regression](LDscore_regression_Bluecrystal4_ldsc)  

@@ -1,0 +1,10 @@
+#Genome-wide Complex Trait Analysis for heritability, using the GCTA tool in Bluecrystal 4
+#Assumes pheno.phen and cov.qcovar files exist and in user directory, containing individual-level phenotype and covariate data in format described: https://yanglab.westlake.edu.cn/software/gcta/#GREMLanalysis
+
+module load apps/gcta/1.94
+
+#Make genetic relationship matrix (GRM)
+gcta64 --bfile "[ALSPAC directory with all chromosomes combined into single bim/bed files]"  --autosome --maf 0.01 --make-grm --out "/mnt/storage/home/[username]/GRM" --thread-num 10
+
+#Estimate variance explained by all the SNPs
+gcta64  --grm "/mnt/storage/home/[username]/GRM" --pheno "/mnt/storage/home/[username]/pheno.phen"  --reml  --qcovar "/mnt/storage/home/[username]/cov.qcovar"  --out "/mnt/storage/home/[username]/herit_results" --thread-num 10

@@ -1,4 +1,4 @@
-# Code snippets for Bristol / ALSPAC / Bluecrstal use
+# Code snippets for Bristol IEU / ALSPAC / Bluecrystal 4 use
 
 I'm using this git to share any code I think may help anyone working in Bristol Uni with ALSPAC. 
 
